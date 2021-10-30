@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestExample">
         <activity
-            android:name=".SearchActivity"
+            android:name=".View.UI.SearchActivity"
             android:exported="false" />
         <activity
             android:name=".View.UI.UserActivity"

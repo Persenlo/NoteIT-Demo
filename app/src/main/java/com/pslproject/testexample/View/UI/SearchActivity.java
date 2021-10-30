@@ -1,6 +1,5 @@
-package com.pslproject.testexample;
+package com.pslproject.testexample.View.UI;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -10,7 +9,6 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -19,10 +17,10 @@ import android.widget.Toast;
 import com.pslproject.testexample.Adapter.MainAdapter;
 import com.pslproject.testexample.Model.entity.NoteData;
 import com.pslproject.testexample.Presenter.SearchPresenter;
+import com.pslproject.testexample.R;
 import com.pslproject.testexample.Utils.BaseActivity;
 import com.pslproject.testexample.Utils.RecyclerItemClickListener;
 import com.pslproject.testexample.View.SearchView;
-import com.pslproject.testexample.View.UI.DialogP;
 
 import java.util.ArrayList;
 import java.util.List;
